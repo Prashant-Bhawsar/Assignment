@@ -1,39 +1,28 @@
 {
-  "user": [
+  "product": [
     {
-      "id": 1,
-      "name": "Admin User",
-      "role": "admin",
-      "email": "admin@in.com",
-      "phone": "9876543210"
+      "id": "1",
+      "name": "Kiwi",
+      "category": "Groceries",
+      "description": "Fruit",
+      "expiryDate": "2024-02-29",
+      "costPrice": "120",
+      "sellPrice": "150",
+      "discountPercentage": "10",
+      "discountedSellPrice": "135.00",
+      "finalPrice": "108.00"
     },
     {
-      "id": 2,
-      "name": "Suresh",
-      "email": "sr@in.com",
-      "phone": "9876543210",
-      "role": "staff"
-    },
-    {
-      "id": 3,
-      "name": "Ramesh",
-      "email": "ra.admin@in.com",
-      "phone": "9876543210",
-      "role": "admin"
-    },
-    {
-      "name": "Akilash",
-      "email": "ak@in.com",
-      "phone": "789900",
-      "role": "staff",
-      "id": 4
-    },
-    {
-      "id": 5,
-      "name": "test",
-      "email": "test@gmail.com",
-      "phone": "900000222",
-      "role": "staff"
+      "id": "2",
+      "name": "Laptop",
+      "category": "Tech",
+      "description": "Laptop",
+      "expiryDate": "2024-02-29",
+      "costPrice": "100000",
+      "sellPrice": "120000",
+      "discountPercentage": "10",
+      "discountedSellPrice": "108000.00",
+      "finalPrice": "90000.00"
     }
   ]
 }

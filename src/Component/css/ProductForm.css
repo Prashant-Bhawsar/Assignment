@@ -1,0 +1,62 @@
+/* Container styling */
+form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Label styling */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Input styling */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+/* Input focus styling */
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #4caf50;
+}
+
+/* Error message styling */
+.error {
+  color: #e74c3c;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Submit button styling */
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+/* Submit button hover styling */
+button:hover {
+  background-color: #45a049;
+}

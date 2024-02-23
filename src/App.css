@@ -8,9 +8,10 @@
 }
 .header{
   width: 100%;
-  background-color: blue;
+  background-color: black;
   color: #fff;
   padding: 1%;
+  margin-bottom: 2%;
   text-align: left;
 }
 a{
