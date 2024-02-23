@@ -17,8 +17,12 @@
 a{
   text-decoration: none !important;
   color: white !important;
-  padding: 2px;
+  padding-left: 10px;
 }
+a:active{
+  color: yellow !important;
+}
+
 .card-header{
   text-align: right;
 }
